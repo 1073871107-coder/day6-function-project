@@ -1,0 +1,23 @@
+A=int(input("请输入a:"))
+B=int(input("请输入b:"))
+C=(input("请输入运算符:+、-、*、/:"))
+if C=="+":
+    def add(a,b):
+        print("加法运算：")
+        print(f"{a}+{b}={a+b}")
+    add(A,B)
+elif C=="-":
+    def sub(a,b):
+        print("减法运算：")
+        print(f"{a}-{b}={a-b}")
+    sub(A,B)
+elif C =="*":
+    def mul(a,b):
+        print("乘法运算：")
+        print(f"{a}*{b}={a*b}")
+    mul(A,B)
+elif C =="/":
+    def div(a,b):
+        print("除法运算：")
+        print(f"{a}/{b}={a/b}")
+    div(A,B) 
